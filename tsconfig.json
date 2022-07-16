@@ -9,7 +9,7 @@
 		"strict": true,
 	},
 	"files":[
-		"be-space-cased.ts"
+		"index.ts"
 	],
 	"exclude":[
 		"build",
