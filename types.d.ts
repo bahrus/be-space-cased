@@ -1,7 +1,7 @@
 import {BeDecoratedProps} from 'be-decorated/types';
 
 export interface BeSpaceCasedVirtualProps{
-    substitutions: {[key: string]: Substitution}
+    
 }
 
 export interface Substitution{
@@ -13,5 +13,5 @@ export interface BeSpaceCasedProps extends BeSpaceCasedVirtualProps{
 }
 
 export interface BeSpaceCasedActions{
-    onSubsitutions(self: this): void;
+    intro(proxy: Element & BeSpaceCasedVirtualProps, target: Element, beDecorProps: BeDecoratedProps): void;
 }
